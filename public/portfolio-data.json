@@ -1,251 +1,183 @@
 {
-  "brand": {
-    "name": "NEEHARIKA VELUVOLU",
-    "initials": "NV",
-    "title": "Full Stack Developer | Frontend Developer | UI/UX Enthusiast",
-    "tagline": "Full Stack Developer | Frontend Developer | UI/UX Enthusiast",
-    "location": "Hyderabad, Telangana",
-    "email": "veluvoluneeharika@gmail.com",
-    "phone": "+91-9000778638"
-  },
-  "navLinks": [
-    {
-      "id": "home",
-      "label": "Home"
-    },
-    {
-      "id": "about",
-      "label": "About"
-    },
-    {
-      "id": "skills",
-      "label": "Skills"
-    },
-    {
-      "id": "projects",
-      "label": "Projects"
-    },
-    {
-      "id": "experience",
-      "label": "Experience"
-    },
-    {
-      "id": "education",
-      "label": "Education"
-    },
-    {
-      "id": "contact",
-      "label": "Contact"
-    }
+  "name": "NEEHARIKA VELUVOLU",
+  "degree": "Bachelor of Technology — Computer Science & Engineering",
+  "university": "SRM University AP",
+  "cgpa": "",
+  "location": "Hyderabad, Telangana",
+  "email": "veluvoluneeharika@gmail.com",
+  "phone": "+91-9000778638",
+  "tagline": "Full Stack Developer | Frontend Developer | UI/UX Enthusiast",
+  "about": [
+    "NEEHARIKA VELUVOLU is a motivated 2nd-year Computer Science student at SRM University AP with hands-on experience in full stack web development, frontend engineering, and UI/UX design. She is proficient in building responsive, user-centric web applications using modern frameworks and tools. She has demonstrated ability to deliver real-world projects in competitive hackathon environments."
   ],
-  "about": {
-    "story": "NEEHARIKA VELUVOLU is a motivated 2nd-year Computer Science student at SRM University AP with hands-on experience in full stack web development, frontend engineering, and UI/UX design. She is proficient in building responsive, user-centric web applications using modern frameworks and tools. She has demonstrated ability to deliver real-world projects in competitive hackathon environments.",
-    "philosophy": "",
-    "stats": []
-  },
+  "aboutHighlights": [],
+  "coursework": [],
   "skills": [
     {
-      "label": "User Research",
-      "category": "UI/UX"
+      "title": "UI/UX",
+      "skills": [
+        "User Research",
+        "Design Systems",
+        "Figma",
+        "Wireframing",
+        "Prototyping"
+      ]
     },
     {
-      "label": "Design Systems",
-      "category": "UI/UX"
+      "title": "Tools & Platforms",
+      "skills": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "npm"
+      ]
     },
     {
-      "label": "Git",
-      "category": "Tools & Platforms"
+      "title": "Core Concepts",
+      "skills": [
+        "MVC Architecture",
+        "CRUD Operations",
+        "Version Control",
+        "Agile Development"
+      ]
     },
     {
-      "label": "GitHub",
-      "category": "Tools & Platforms"
+      "title": "Frontend",
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "React.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Responsive Web Design"
+      ]
     },
     {
-      "label": "VS Code",
-      "category": "Tools & Platforms"
+      "title": "Backend",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "Python",
+        "REST APIs",
+        "JWT Authentication"
+      ]
     },
     {
-      "label": "Postman",
-      "category": "Tools & Platforms"
-    },
-    {
-      "label": "npm",
-      "category": "Tools & Platforms"
-    },
-    {
-      "label": "MVC Architecture",
-      "category": "Core Concepts"
-    },
-    {
-      "label": "CRUD Operations",
-      "category": "Core Concepts"
-    },
-    {
-      "label": "Version Control",
-      "category": "Core Concepts"
-    },
-    {
-      "label": "Agile Development",
-      "category": "Core Concepts"
-    },
-    {
-      "label": "HTML5",
-      "category": "Frontend"
-    },
-    {
-      "label": "CSS3",
-      "category": "Frontend"
-    },
-    {
-      "label": "JavaScript (ES6+)",
-      "category": "Frontend"
-    },
-    {
-      "label": "React.js",
-      "category": "Frontend"
-    },
-    {
-      "label": "Tailwind CSS",
-      "category": "Frontend"
-    },
-    {
-      "label": "Bootstrap",
-      "category": "Frontend"
-    },
-    {
-      "label": "Responsive Web Design",
-      "category": "Frontend"
-    },
-    {
-      "label": "Node.js",
-      "category": "Backend"
-    },
-    {
-      "label": "Express.js",
-      "category": "Backend"
-    },
-    {
-      "label": "Python",
-      "category": "Backend"
-    },
-    {
-      "label": "REST APIs",
-      "category": "Backend"
-    },
-    {
-      "label": "JWT Authentication",
-      "category": "Backend"
-    },
-    {
-      "label": "MongoDB",
-      "category": "Databases"
-    },
-    {
-      "label": "MySQL",
-      "category": "Databases"
-    },
-    {
-      "label": "SQL",
-      "category": "Databases"
-    },
-    {
-      "label": "MongoDB Atlas",
-      "category": "Databases"
-    },
-    {
-      "label": "Figma",
-      "category": "UI/UX"
-    },
-    {
-      "label": "Wireframing",
-      "category": "UI/UX"
-    },
-    {
-      "label": "Prototyping",
-      "category": "UI/UX"
+      "title": "Databases",
+      "skills": [
+        "MongoDB",
+        "MySQL",
+        "SQL",
+        "MongoDB Atlas"
+      ]
     }
   ],
   "projects": [
     {
       "title": "Educational Platform",
       "description": "Built a full-featured educational platform enabling users to connect with peers for collaborative study, discover curated tutorials, and access structured learning roadmaps across various tech domains. Selected and presented at Fotex'36 Hackathon — a multi-college competitive event.",
-      "tags": [
+      "technologies": [
         "React.js",
         "Node.js",
         "MongoDB",
         "Express.js"
       ],
-      "year": "2024"
+      "learning": ""
     },
     {
       "title": "Budget Tracking Website",
       "description": "Developed a responsive personal finance and budget tracking web app with real-time expense categorization, visual dashboards, and spending analytics. Showcased at Vibecraft 2026, the annual tech fest at SRM University AP.",
-      "tags": [
+      "technologies": [
         "React.js",
         "Node.js",
         "MongoDB"
       ],
-      "year": "2024"
+      "learning": ""
     },
     {
       "title": "Student Management System",
       "description": "Designed and developed a student management portal supporting enrollment, grade management, and administrative workflows with role-based access control.",
-      "tags": [
+      "technologies": [
         "HTML",
         "CSS",
         "JavaScript",
         "SQL/MySQL",
         "Node.js"
       ],
-      "year": "2024"
+      "learning": ""
     },
     {
       "title": "Attendance Management System & Analytics",
       "description": "Full stack attendance tracking system with automated reporting and interactive analytics dashboards to display attendance trends and flag at-risk students.",
-      "tags": [
+      "technologies": [
         "React.js",
         "Node.js",
         "MongoDB",
         "Chart.js"
       ],
-      "year": "2024"
+      "learning": ""
     },
     {
       "title": "Blogging Platform",
       "description": "Multi-user blogging platform with full CRUD functionality, user authentication, rich text editing, comment system, and categorized post discovery.",
-      "tags": [
+      "technologies": [
         "React.js",
         "Node.js",
         "Express.js",
         "MongoDB"
       ],
-      "year": "2024"
+      "learning": ""
     }
   ],
-  "experience": [],
-  "education": [
-    {
-      "degree": "Bachelor of Technology — Computer Science & Engineering",
-      "institution": "SRM University AP",
-      "period": "2024-01-01 - 2028-12-31",
-      "description": ""
-    }
-  ],
+  "activities": [],
   "certifications": [
     {
-      "title": "Python Programming",
+      "name": "Python Programming",
       "issuer": "Udemy",
-      "year": "2022"
+      "date": "2022"
     },
     {
-      "title": "MongoDB Associate Developer",
+      "name": "MongoDB Associate Developer",
       "issuer": "MongoDB University",
-      "year": "2022"
+      "date": "2022"
     },
     {
-      "title": "Full Stack Web Development",
+      "name": "Full Stack Web Development",
       "issuer": "Udemy",
-      "year": "2022"
+      "date": "2022"
+    }
+  ],
+  "experiences": [],
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Education",
+      "href": "#education"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
     }
   ]
 }
